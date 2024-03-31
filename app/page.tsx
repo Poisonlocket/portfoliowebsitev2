@@ -29,7 +29,7 @@ export default function page() {
                 </div>
 
                 <div className="lg:text-[11em] md:text-[8em] bg-black flex w-screen">
-                    I&apos;m @<TypewriterEffect words={[{text:"Lori", className: "text-blue-500 text-[4.8em]"}]} cursorClassName="h-96]"></TypewriterEffect>
+                    I&apos;m @<TypewriterEffect words={[{text:"Test", className: "text-blue-500 text-[4.8em]"}]} cursorClassName="h-96]"></TypewriterEffect>
                 </div>
                 </div>
             <div className="h-96">
