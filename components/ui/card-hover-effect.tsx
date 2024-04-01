@@ -114,7 +114,7 @@ export const CardDescription = ({
 
 export function CardHoverEffectDemo() {
     return (
-        <div className="max-w-5xl mx-auto px-8">
+        <div className="w-[92%] mx-auto">
             <HoverEffect items={projects} />
         </div>
     );
