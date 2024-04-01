@@ -63,7 +63,7 @@ export default function page() {
                 <CanvasRevealFood></CanvasRevealFood>
 
             </div>
-                <div className={"text-center lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
+                <div className={"text-left mx-[8%] lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
                     &lt; My Stack / &gt;
                 </div>
                 <CardHoverEffectDemo>
