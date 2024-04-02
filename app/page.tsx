@@ -2,16 +2,7 @@
 import Typewriter from 'typewriter-effect';
 import React, {Fragment} from 'react'
 
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
+import {NextUIProvider} from "@nextui-org/react";
 
 
 import {CanvasRevealFood} from "@/components/ui/reveal_versions/canvas-reveal-food";
@@ -22,13 +13,15 @@ import {CardHoverEffectDemo} from "@/components/ui/card-hover-effect";
 import {LayoutGrid, LayoutGridDemo} from "@/components/ui/layout-grid"
 import {TracingBeam} from "@/components/ui/tracing-beam";
 import {WavyBackground} from "@/components/ui/wavy-background";
+import Navbarprod from "@/components/ui/navbar";
 
 
 
 export default function page() {
     return (
+        <NextUIProvider>
         <div className="min-h-full bg-black">
-
+            <Navbarprod></Navbarprod>
 
             <WavyBackground>
                 <div className="mx-[8%]">
@@ -36,7 +29,7 @@ export default function page() {
                     Hey
                 </div>
 
-                <div className="lg:text-[8em] md:text-[4em] sm:text-[3em] xs:text-[2em] flex HoverEffect">
+                <div className="lg:text-[8em]  md:text-[4em] sm:text-[3em] xs:text-[2em] flex HoverEffect 3xl:mt-96  lg:mt-[1em]">
                     I&apos;m <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString(` <span style="
@@ -86,11 +79,12 @@ export default function page() {
                 </div>
 
                 <TracingBeam>
-
+                    <div></div>
                 </TracingBeam>
 
 
 
         </div>
+        </NextUIProvider>
     )
 }
