@@ -10,7 +10,7 @@ import {CanvasRevealSecurity} from "@/components/ui/reveal_versions/canvas-revea
 import {CanvasRevealCoding} from "@/components/ui/reveal_versions/canvas-reveal-it";
 import "./globals.css"
 import {CardHoverEffectDemo} from "@/components/ui/card-hover-effect";
-import {LayoutGrid, LayoutGridDemo} from "@/components/ui/layout-grid"
+
 import {TracingBeam} from "@/components/ui/tracing-beam";
 import {WavyBackground} from "@/components/ui/wavy-background";
 import Navbarprod from "@/components/ui/navbar";
@@ -73,7 +73,7 @@ export default function page() {
                 <CardHoverEffectDemo>
 
                 </CardHoverEffectDemo>
-                <LayoutGridDemo />
+
                 <div className={"text-left mx-[8%] lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
                     &lt; Engagement / &gt;
                 </div>
