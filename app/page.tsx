@@ -2,6 +2,16 @@
 import Typewriter from 'typewriter-effect';
 import React, {Fragment} from 'react'
 
+import {
+    NavigationMenu,
+    NavigationMenuContent,
+    NavigationMenuIndicator,
+    NavigationMenuItem,
+    NavigationMenuLink,
+    NavigationMenuList,
+    NavigationMenuTrigger,
+    NavigationMenuViewport,
+} from "@/components/ui/navigation-menu"
 
 
 import {CanvasRevealFood} from "@/components/ui/reveal_versions/canvas-reveal-food";
@@ -9,14 +19,18 @@ import {CanvasRevealSecurity} from "@/components/ui/reveal_versions/canvas-revea
 import {CanvasRevealCoding} from "@/components/ui/reveal_versions/canvas-reveal-it";
 import "./globals.css"
 import {CardHoverEffectDemo} from "@/components/ui/card-hover-effect";
+import {LayoutGrid, LayoutGridDemo} from "@/components/ui/layout-grid"
+import {TracingBeam} from "@/components/ui/tracing-beam";
+import {WavyBackground} from "@/components/ui/wavy-background";
+
 
 
 export default function page() {
     return (
         <div className="min-h-full bg-black">
-      
-            <div className="h-96">
 
+
+            <WavyBackground>
                 <div className="mx-[8%]">
                 <div className="lg:text-[16em] md:text-[12em] sm:text-[8em] xs:text-[4em] font-semibold">
                     Hey
@@ -46,17 +60,14 @@ export default function page() {
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 "
-                >‎ @Nonno</span>`)
+                >‎ @Lorenzo</span>`)
                             .start();
                     }}
                 />
                 </div>
                 </div>
-            <div className="h-96">
-                <div className=" font-semibold">
+            </WavyBackground>
 
-                </div>
-            </div>
             <div className="grid mx-[4%] lg:grid-cols-3 md:grid-cols-2">
                 <CanvasRevealSecurity></CanvasRevealSecurity>
                 <CanvasRevealCoding></CanvasRevealCoding>
@@ -69,7 +80,17 @@ export default function page() {
                 <CardHoverEffectDemo>
 
                 </CardHoverEffectDemo>
-            </div>
+                <LayoutGridDemo />
+                <div className={"text-left mx-[8%] lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
+                    &lt; Engagement / &gt;
+                </div>
+
+                <TracingBeam>
+
+                </TracingBeam>
+
+
+
         </div>
     )
 }
