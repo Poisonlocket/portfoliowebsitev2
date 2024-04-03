@@ -1,58 +1,60 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
 import {AcmeLogo} from "./AcmeLogo";
-
+import { FaGithub } from "react-icons/fa";
+import Head from 'next/head'
 export default function Navbarprod() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
     const menuItems = [
-        "Profile",
-        "Dashboard",
-        "Activity",
-        "Analytics",
-        "System",
-        "Deployments",
-        "My Settings",
-        "Team Settings",
-        "Help & Feedback",
-        "Log Out",
+        "Home",
+        "Techstack",
+        "Projects",
+        "Engagement"
     ];
+    const links = [
+        "#Navwrapper",
+        "#Techstack",
+        "#Projects",
+        "#Engagement"
+
+
+    ]
 
     return (
-
         <Navbar onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                     className="sm:hidden"
                 />
-                <NavbarBrand>
+                <NavbarBrand as={Link} href="/">
                     <AcmeLogo />
-                    <p className="font-bold text-inherit">Lorenzo Bonometti</p>
+                    <p className="font-bold text-inherit" id={"Top"}>Lorenzo Bonometti</p>
                 </NavbarBrand>
             </NavbarContent>
 
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 <NavbarItem>
-                    <Link color="foreground" href="#">
+                    <Link className={"scroll-smooth"} color="foreground" href="#Techstack">
                         Techstack
                     </Link>
                 </NavbarItem>
                 <NavbarItem isActive>
-                    <Link href="#" aria-current="page">
+                    <Link className={"scroll-smooth"} href="#Projects" aria-current="page">
                         Projects
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="#">
+                    <Link className={"scroll-smooth"} color="foreground" href="#Engagement">
                         Engagement
                     </Link>
                 </NavbarItem>
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem>
-                    <Button as={Link} color="primary" href="#" variant="flat">
-                        <AcmeLogo />
+                    <Button as={Link} color="primary" href="https://github.com/Poisonlocket" className={" data-[hover=true]:bg-purple-600 "} variant="flat">
+                        <FaGithub size={24} />
                         Github
                     </Button>
                 </NavbarItem>
@@ -60,15 +62,8 @@ export default function Navbarprod() {
             <NavbarMenu>
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item}-${index}`}>
-                        <Link
-                            color={
-                                index === 2 ? "primary" : "foreground"
-                            }
-                            className="w-full"
-                            href="#"
-                            size="lg"
-                        >
-                            {item}
+                        <Link className={"scroll-smooth"} href={links[index]} passHref>
+                            <a className="w-full">{item}</a>
                         </Link>
                     </NavbarMenuItem>
                 ))}

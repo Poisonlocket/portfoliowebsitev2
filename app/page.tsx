@@ -20,8 +20,10 @@ import Navbarprod from "@/components/ui/navbar";
 export default function page() {
     return (
         <NextUIProvider>
-        <div className="min-h-full bg-black">
+        <div className="min-h-full scroll-smooth bg-black">
+            <div id={"Navwrapper"}></div>
             <Navbarprod></Navbarprod>
+
 
             <WavyBackground>
                 <div className="mx-[8%]">
@@ -37,7 +39,7 @@ export default function page() {
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 "
-                >‎ A Full Stack Developer</span>`)
+                >‎ A Full Stack Dev</span>`)
                             .pauseFor(2500)
                             .deleteAll()
                         typewriter.typeString(`<span style="
@@ -61,20 +63,20 @@ export default function page() {
                 </div>
             </WavyBackground>
 
-            <div className="grid mx-[4%] lg:grid-cols-3 md:grid-cols-2">
+            <div className="grid mx-[4%] mt-24 lg:grid-cols-3 md:grid-cols-2">
                 <CanvasRevealSecurity></CanvasRevealSecurity>
                 <CanvasRevealCoding></CanvasRevealCoding>
                 <CanvasRevealFood></CanvasRevealFood>
 
             </div>
-                <div className={"text-left mx-[8%] lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
+                <div id={"Techstack"} className={"text-left mx-[8%] mt-24 lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
                     &lt; My Stack / &gt;
                 </div>
                 <CardHoverEffectDemo>
 
                 </CardHoverEffectDemo>
 
-                <div className={"text-left mx-[8%] lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
+                <div id={"Engagement"} className={"text-left mt-24 mx-[8%] lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
                     &lt; Engagement / &gt;
                 </div>
 
