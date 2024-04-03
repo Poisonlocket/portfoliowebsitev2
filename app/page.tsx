@@ -56,7 +56,8 @@ export default function page() {
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 "
-                >‎ @Lorenzo</span>`)
+                >‎ @Poisonno
+                </span>`)
                             .start();
                     }}
                 />
@@ -86,7 +87,7 @@ export default function page() {
                 </TracingBeam>
             <div className="h-96"></div>
 
-            <Footer></Footer>
+            <Footer  ></Footer>
         </div>
 
         </NextUIProvider>

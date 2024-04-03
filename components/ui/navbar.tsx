@@ -30,7 +30,7 @@ export default function Navbarprod() {
                 />
                 <NavbarBrand as={Link} href="/">
                     <AcmeLogo />
-                    <p className="font-bold text-inherit" id={"Top"}>Lorenzo Bonometti</p>
+                    <p className="font-bold text-inherit" id={"Top"}>Name Lastname</p>
                 </NavbarBrand>
             </NavbarContent>
 
