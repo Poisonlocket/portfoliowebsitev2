@@ -14,6 +14,7 @@ import {CardHoverEffectDemo} from "@/components/ui/card-hover-effect";
 import {TracingBeam} from "@/components/ui/tracing-beam";
 import {WavyBackground} from "@/components/ui/wavy-background";
 import Navbarprod from "@/components/ui/navbar";
+import Footer from "@/components/ui/footer";
 
 
 
@@ -81,12 +82,13 @@ export default function page() {
                 </div>
 
                 <TracingBeam>
-                    <div></div>
+                    <div className="h-96"></div>
                 </TracingBeam>
+            <div className="h-96"></div>
 
-
-
+            <Footer></Footer>
         </div>
+
         </NextUIProvider>
     )
 }
