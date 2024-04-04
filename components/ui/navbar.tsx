@@ -23,6 +23,7 @@ export default function Navbarprod() {
 
     // @ts-ignore
     // @ts-ignore
+    // @ts-ignore
     return (
         <Navbar onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>

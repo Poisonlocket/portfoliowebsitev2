@@ -6,7 +6,8 @@ html {
   scroll-behavior: smooth !important;
 }
 
-.custom-shape-divider-bottom-1712169919 {
+.custom-shape-divider-bottom-1712213419 {
+
   bottom: 0;
   left: 0;
   width: 100%;
@@ -15,15 +16,15 @@ html {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1712169919 svg {
-  position: relative;
+.custom-shape-divider-bottom-1712213419 svg {
+
   display: block;
   width: calc(100% + 1.3px);
-  height: 16rem;
+  height: 70px;
 }
 
-.custom-shape-divider-bottom-1712169919 .shape-fill {
-  fill: #404040;
+.custom-shape-divider-bottom-1712213419 .shape-fill {
+  fill: #E5E4E2;
 }
 
 @layer base {

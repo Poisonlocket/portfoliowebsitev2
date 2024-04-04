@@ -31,7 +31,7 @@ const config = {
 
     extend: {
       colors: {
-        "footer-gray": "#404040",
+        "footer-gray": "#E5E4E2",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

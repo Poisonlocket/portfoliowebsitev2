@@ -15,11 +15,13 @@ import {TracingBeam} from "@/components/ui/tracing-beam";
 import {WavyBackground} from "@/components/ui/wavy-background";
 import Navbarprod from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";
+import Home from "@/app/head";
 
 
 
 export default function page() {
-    return (
+    return(
+
         <NextUIProvider>
         <div className="min-h-full scroll-smooth bg-black">
             <div id={"Navwrapper"}></div>
