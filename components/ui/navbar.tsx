@@ -9,14 +9,14 @@ export default function Navbarprod() {
     const menuItems = [
         "Home",
         "Techstack",
-        "Projects",
-        "Engagement"
+        "Engagement",
+        "Projects"
     ];
     const links = [
         "#Navwrapper",
         "#Techstack",
-        "#Projects",
-        "#Engagement"
+        "#Engagement",
+        "#Projects"
 
 
     ]
@@ -44,13 +44,13 @@ export default function Navbarprod() {
                     </Link>
                 </NavbarItem>
                 <NavbarItem isActive>
-                    <Link className={"scroll-smooth"} href="#Projects" aria-current="page">
-                        Projects
+                    <Link className={"scroll-smooth"} href="#Engagement" aria-current="page">
+                        Engagement
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link className={"scroll-smooth"} color="foreground" href="#Engagement">
-                        Engagement
+                    <Link className={"scroll-smooth"} color="foreground" href="#Projects">
+                        Projects
                     </Link>
                 </NavbarItem>
             </NavbarContent>
