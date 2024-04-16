@@ -121,39 +121,39 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
     {
-        title: "Stripe",
+        title: "Python",
         description:
-            "A technology company that builds economic infrastructure for the internet.",
-        link: "https://stripe.com",
+            "Python was my first programming language and i use it for a lot of things, automation, discord bots, cyber security and pretty much anything imaginable.",
+        link: "https://python.org",
     },
     {
-        title: "Netflix",
+        title: "Typescript",
         description:
-            "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-        link: "https://netflix.com",
+            "Not that long ago i switched to typescript considering the much better developer experience in my opinion and the improved debugging. I even used it for this Project",
+        link: "https://typescriptlang.org/",
     },
     {
-        title: "Google",
+        title: "React / Nextjs",
         description:
-            "A multinational technology company that specializes in Internet-related services and products.",
-        link: "https://google.com",
+            "React is the most popular choice as a beginner javascript framework, so i mostly just went with that to get the hang of it, if i decide to change my mind i can easily just framework-hop later. Also, fun-fact this page is built in Nextjs",
+        link: "https://nextjs.org/",
     },
     {
-        title: "Meta",
+    title: "HTML & CSS [TAILWINDCSS]",
         description:
-            "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-        link: "https://meta.com",
+            "Tailwind was generally the first web-framework i picked up and showed me how enjoyable css can actually be. I really cant go without it anymore at this point considering the speed and freedom it gives me.",
+        link: "https://tailwindcss.com/",
     },
     {
-        title: "Amazon",
+        title: "GO",
         description:
-            "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-        link: "https://amazon.com",
+            "Go is the newest addition to my stack and i build TUI / CLI applications with the charmbracelet-bubbletea framework with it. I enjoy the speed and simplicity of go, although im just getting started with it.",
+        link: "https://go.dev/",
     },
     {
-        title: "Microsoft",
+        title: "GIT",
         description:
-            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-        link: "https://microsoft.com",
+            "Git might not be a programming language but i cant imagine my life as a programmer without it, its probably the thing i use the most in my stack and in my opinion every programmer should know how to use this work of art.",
+        link: "https://git-scm.com/",
     },
 ];
