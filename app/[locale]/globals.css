@@ -4,6 +4,14 @@
 
 html {
   scroll-behavior: smooth !important;
+  overflow-x: hidden;
+}
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 .custom-shape-divider-bottom-1712213419 {
@@ -24,7 +32,7 @@ html {
 }
 
 .custom-shape-divider-bottom-1712213419 .shape-fill {
-  fill: #E5E4E2;
+  fill: #FFFFFF;
 }
 
 @layer base {

@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 import React, {Fragment} from 'react'
 
 import {NextUIProvider} from "@nextui-org/react";
-
+import {ScrollShadow} from "@nextui-org/react";
 
 import {CanvasRevealFood} from "@/components/ui/reveal_versions/canvas-reveal-food";
 import {CanvasRevealSecurity} from "@/components/ui/reveal_versions/canvas-reveal-security";
@@ -24,14 +24,16 @@ import {BentoGridDemo} from "@/components/ui/project-bento";
 import { BsRocketTakeoffFill } from "react-icons/bs";
 import { BsFillShieldLockFill } from "react-icons/bs";
 import { IoAccessibility } from "react-icons/io5";
-
+import { useTranslations} from 'next-intl'
 
 
 export default function page() {
+    const translate = useTranslations('Index');
     return(
 
         <NextUIProvider>
-            <div className=" min-h-full scroll-smooth bg-black">
+
+            <div className=" min-h-full scroll-smooth overflow-x-hidden bg-black">
             <div id={"Navwrapper"}></div>
             <Navbarprod></Navbarprod>
 
@@ -39,7 +41,7 @@ export default function page() {
             <WavyBackground className={"overflow-x-hidden"} >
                 <div className="overflow-x-hidden mx-[8%]">
                 <div className="lg:text-[16em] md:text-[12em] sm:text-[8em] xs:text-[4em] font-semibold">
-                    Hey
+                    {translate('Index')}
                 </div>
 
                 <div className="lg:text-[8em]  md:text-[4em] sm:text-[3em] xs:text-[2em] flex HoverEffect">
@@ -144,6 +146,7 @@ export default function page() {
                         
                     </ul>
                     </div>
+                    <div className={"h-24"}></div>
                 </TracingBeam>
 
 
