@@ -8,12 +8,6 @@ import {useMessages} from "use-intl";
 
 const inter = Inter({ subsets: ["latin"] });
 
-interface RootLayoutProps{
-    children: React.ReactNode,
-    params: {
-        locale: string;
-    }
-}
 
 export const metadata: Metadata = {
   title: "Home",
@@ -22,10 +16,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
                                        children,
-                                   }:   Readonly<RootLayoutProps>) {
-    const messages = useMessages()
+                                   }: Readonly<{
+    children: React.ReactNode;
+}>) {
+
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang="de" suppressHydrationWarning>
       <head>
          <title>Home</title>
 
@@ -38,9 +34,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
       >
-          <NextIntlClientProvider messages={messages}>
+
         {children}
-          </NextIntlClientProvider>
+
       </ThemeProvider>
       </body>
     </html>
