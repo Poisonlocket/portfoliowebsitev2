@@ -18,7 +18,7 @@ import {TracingBeam} from "@/components/ui/tracing-beam";
 import {WavyBackground} from "@/components/ui/wavy-background";
 import Navbarprod from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";
-import Home from "@/app/head";
+
 import { IoGameController } from "react-icons/io5";
 import {BentoGridDemo} from "@/components/ui/project-bento";
 import { BsRocketTakeoffFill } from "react-icons/bs";
