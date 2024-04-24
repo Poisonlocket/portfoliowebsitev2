@@ -33,7 +33,7 @@ export default function page() {
 
         <NextUIProvider>
 
-            <div className=" min-h-full scroll-smooth overflow-x-hidden bg-black">
+            <div className=" min-h-full scroll-smooth bg-black">
             <div id={"Navwrapper"}></div>
             <Navbarprod></Navbarprod>
 

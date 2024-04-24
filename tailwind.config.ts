@@ -88,7 +88,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), addVariablesForColors, nextui(), require("daisyui")],
+  plugins: [require("tailwindcss-animate"), addVariablesForColors, nextui(), require("daisyui"), nextui()],
 } satisfies Config
 function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));

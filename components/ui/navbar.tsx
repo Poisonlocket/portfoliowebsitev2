@@ -25,7 +25,7 @@ export default function Navbarprod() {
     // @ts-ignore
     // @ts-ignore
     return (
-        <Navbar onMenuOpenChange={setIsMenuOpen}>
+        <Navbar  onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -39,17 +39,17 @@ export default function Navbarprod() {
 
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 <NavbarItem>
-                    <Link className={"scroll-smooth"} color="foreground" href="#Techstack">
+                    <Link color="foreground" href="#Techstack">
                         Techstack
                     </Link>
                 </NavbarItem>
                 <NavbarItem isActive>
-                    <Link className={"scroll-smooth"} href="#Engagement" aria-current="page">
+                    <Link href="#Engagement" aria-current="page">
                         Engagement
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link className={"scroll-smooth"} color="foreground" href="#Projects">
+                    <Link color="foreground" href="#Projects">
                         Projects
                     </Link>
                 </NavbarItem>
@@ -65,8 +65,8 @@ export default function Navbarprod() {
             <NavbarMenu>
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item}-${index}`}>
-                        <Link className={"scroll-smooth"} href={links[index]} passHref>
-                            <a className="w-full">{item}</a>
+                        <Link  href={links[index]} passHref>
+                            <div className="w-full">{item}</div>
                         </Link>
                     </NavbarMenuItem>
                 ))}
