@@ -25,7 +25,7 @@ export default function Navbarprod() {
     // @ts-ignore
     // @ts-ignore
     return (
-        <Navbar  onMenuOpenChange={setIsMenuOpen}>
+        <Navbar className={"w-full"}  onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -65,7 +65,7 @@ export default function Navbarprod() {
             <NavbarMenu>
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem key={`${item}-${index}`}>
-                        <Link  href={links[index]} passHref>
+                        <Link  href={links[index]}>
                             <div className="w-full">{item}</div>
                         </Link>
                     </NavbarMenuItem>
