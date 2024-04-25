@@ -116,7 +116,7 @@ export default function page() {
                             <div className="timeline-end lg:text-xl mb-10">
                                 <time className="font-mono italic">September 2023</time>
                                 <div className="text-lg font-black">Baselhack</div>
-                                The Basel-hack was one of the first events i attended in the tech field, looking back i showed up with barely any experience. I got accepted into a great team "H-A-Y" and got the chance to meet amazing developers with whom i&apos;d spend the next two days building a full-stack application. Baselhack gave me a lot of memories on which i enjoy to look back on from time to time.
+                                The Basel-hack was one of the first events i attended in the tech field, looking back i showed up with barely any experience. I got accepted into a great team &rdquo;H-A-Y&rdquo; and got the chance to meet amazing developers with whom i&apos;d spend the next two days building a full-stack application. Baselhack gave me a lot of memories on which i enjoy to look back on from time to time.
                             </div>
                             <hr />
                         </li>
@@ -156,7 +156,7 @@ export default function page() {
                 </div>
             <BentoGridDemo />
 
-            <div className="h-96 flex items-center justify-center content-center"><Code className={"bg-zinc-900 justify-center mx-[5%] flex items-center sm:text-2xl xs:text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl 3xl:text-7xl content-center h-48 text-wrap w-[96%] text-center"}>"Take that Risk and go switch up the Game"</Code></div>
+            <div className="h-96 flex items-center justify-center content-center"><Code className={"bg-zinc-900 justify-center mx-[5%] flex items-center sm:text-2xl xs:text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl 3xl:text-7xl content-center h-48 text-wrap w-[96%] text-center"}>&ldquo;Take that Risk and go switch up the Game&rdquo;</Code></div>
 
                 <Footer></Footer>
             </div>
