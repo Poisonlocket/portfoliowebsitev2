@@ -25,6 +25,7 @@ import { BsRocketTakeoffFill } from "react-icons/bs";
 import { BsFillShieldLockFill } from "react-icons/bs";
 import { IoAccessibility } from "react-icons/io5";
 
+import {Code} from "@nextui-org/react";
 
 
 export default function page() {
@@ -68,7 +69,7 @@ export default function page() {
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 "
-                >‎ @Tuxtrail
+                >‎ @Lorenzo
                 </span>`)
                             .start();
                     }}
@@ -100,10 +101,10 @@ export default function page() {
                             <div className="timeline-middle">
                                 <IoGameController size={28}  color={"red"}/>
                             </div>
-                            <div className="timeline-start md:text-end mb-10">
+                            <div className="timeline-start lg:text-xl md:text-end mb-10">
                                 <time className="font-mono italic">June 2023</time>
                                 <div className="text-lg font-black justify-around">Swisshub-Community Developer Team</div>
-                                The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh personal computer. It played a pivotal role in establishing desktop publishing as a general office function. The motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were housed in a beige case with integrated carrying handle; it came with a keyboard and single-button mouse.
+                                In June of 2023 i started developing at the largest swiss online discord server. To this day i program discord bot solutions for the entire community and staff team. Its been truly an experience, after the former leading developer left and took the codebase i had to step in and take on that role. It definitely wasn&apos;t easy, however i learnt a lot and now i manage the repositorys and deployments.
                             </div>
                             <hr/>
                         </li>
@@ -115,7 +116,7 @@ export default function page() {
                             <div className="timeline-end lg:text-xl mb-10">
                                 <time className="font-mono italic">September 2023</time>
                                 <div className="text-lg font-black">Baselhack</div>
-                                test1
+                                The Basel-hack was one of the first events i attended in the tech field, looking back i showed up with barely any experience. I got accepted into a great team "H-A-Y" and got the chance to meet amazing developers with whom i&apos;d spend the next two days building a full-stack application. Baselhack gave me a lot of memories on which i enjoy to look back on from time to time.
                             </div>
                             <hr />
                         </li>
@@ -124,10 +125,10 @@ export default function page() {
                             <div className="timeline-middle">
                                 <BsFillShieldLockFill color={"blue"} size={28} />
                             </div>
-                            <div className="timeline-start md:text-end mb-10">
+                            <div className="timeline-start lg:text-xl md:text-end mb-10">
                                 <time className="font-mono italic">February 2024</time>
                                 <div className="text-lg font-black">Cyber Security Events</div>
-                                test2
+                                As a cyber security fan i am often attending conventions and events to meet like minded people and learn new things. Recently i attended the swiss hacking challenge qualifiers of 2024. This was my first CTF and sadly wasn&apos;t able to complete that much however i still fought for some points and in the end made quite a few new connections in the SHC Discord. Round two is already approaching rapidly as ive signed up for the Regio Skills which will be held soon.
                             </div>
                             <hr />
                         </li>
@@ -136,10 +137,10 @@ export default function page() {
                             <div className="timeline-middle">
                                 <IoAccessibility size={28} />
                             </div>
-                            <div className="timeline-end mb-10">
+                            <div className="timeline-end lg:text-xl mb-10">
                                 <time className="font-mono italic">April 2024</time>
                                 <div className="text-lg font-black">Accessibility Hack</div>
-                                test3
+                                The latest Event i attended was the accessibility-hack 2024 in Zurich, with fellow developers from my school we went to find and develop new innovative solutions for visually impaired / blind people. It was a very interesting event and i learned a lot about how people with disabilitys use technology that we take for granted and what challenges they face. In the end we developed a new concept that should assist such people with analyzing complex charts on webpages, be able to summarize and make the charts interactice / accessible. Sadly due to the lack of time we weren&apos;t able to implement it.
                             </div>
                             <hr />
                         </li>
@@ -155,7 +156,7 @@ export default function page() {
                 </div>
             <BentoGridDemo />
 
-            <div className="h-96"></div>
+            <div className="h-96 flex items-center justify-center content-center"><Code className={"bg-zinc-900 justify-center mx-[5%] flex items-center sm:text-2xl xs:text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl 3xl:text-7xl content-center h-48 text-wrap w-[96%] text-center"}>"Take that Risk and go switch up the Game"</Code></div>
 
                 <Footer></Footer>
             </div>

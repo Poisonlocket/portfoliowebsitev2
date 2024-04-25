@@ -32,7 +32,7 @@ export function CanvasRevealCoding() {
                             <AceternityIcon />
                         </div>
                         <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 text-center font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-                            Yes Yes i Code and stuff its late rn and im enjoying the vibes while listening to simpsonwave 1995 and resonance, good songs
+                            Ever since i started programming, its definitely been a ride with a lot of up&apos;s and down&apos;s downs but the having the ability to create without limitations is just amazing.
                         </h2>
                     </div>
                 </div>

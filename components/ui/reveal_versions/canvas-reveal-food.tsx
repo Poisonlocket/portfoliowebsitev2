@@ -31,7 +31,7 @@ export function CanvasRevealFood() {
                             <AceternityIcon />
                         </div>
                         <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 text-center font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-                            Not all my interests are digital. I really enjoy cooking traditional italian cuisine, even more when i eat it :)
+                            Not all my interests are digital. I really enjoy cooking and culinary experiments, i mostly cook traditional italian dishes, with some exceptions.
                         </h2>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Card = ({
         <div
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
-            className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] relative"
+            className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 h-[30rem] relative"
         >
             <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
             <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
