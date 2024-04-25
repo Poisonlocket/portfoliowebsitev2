@@ -48,28 +48,28 @@ export default function page() {
                 <div className="lg:text-[8em]  md:text-[4em] sm:text-[3em] xs:text-[2em] flex HoverEffect">
                     I&apos;m <Typewriter
                     onInit={(typewriter) => {
-                        typewriter.typeString(` <span style="
+                        typewriter.typeString(` <span class='ml-10' style="
                 background:linear-gradient(45deg, #1FD1F9, #B621FE);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 "
-                >‎ A Full Stack Dev</span>`)
+                >A Full Stack Dev</span>`)
                             .pauseFor(2500)
                             .deleteAll()
-                        typewriter.typeString(`<span style="
+                        typewriter.typeString(`<span class='ml-10' style="
                 background:linear-gradient(45deg, #1FD1F9, #B621FE);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 "
-                >‎ an IT-Student</span>`)
+                >an IT-Student</span>`)
                             .pauseFor(2500)
                             .deleteAll()
-                        typewriter.typeString(`<span style="
+                        typewriter.typeString(`<span class='ml-10' style="
                 background:linear-gradient(45deg, #1FD1F9, #B621FE);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 "
-                >‎ @Lorenzo
+                >@Lorenzo
                 </span>`)
                             .start();
                     }}
