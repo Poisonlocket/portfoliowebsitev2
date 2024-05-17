@@ -32,8 +32,7 @@ export function CanvasRevealSecurity() {
                             <AceternityIcon />
                         </div>
                         <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 text-center font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-                            One of my biggest interests in the it field is security, i participate in ctfs, attend events and conventions and try to keep up with the latest CVE&apos;s.
-                        </h2>
+                            One of my biggest interests in the IT field is security. I participate in CTFs, attend events and conventions, and try to keep up with the latest CVE&apos;s.                        </h2>
                     </div>
                 </div>
             </div>

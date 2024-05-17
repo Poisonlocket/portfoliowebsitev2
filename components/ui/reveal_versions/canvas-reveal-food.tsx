@@ -31,8 +31,7 @@ export function CanvasRevealFood() {
                             <AceternityIcon />
                         </div>
                         <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 text-center font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-                            Not all my interests are digital. I really enjoy cooking and culinary experiments, i mostly cook traditional italian dishes, with some exceptions.
-                        </h2>
+                            Not all my interests are digital. I really enjoy cooking and culinary experiments. I mostly cook traditional Italian dishes, with some exceptions.                        </h2>
                     </div>
                 </div>
             </div>

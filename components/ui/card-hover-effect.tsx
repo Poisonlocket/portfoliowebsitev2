@@ -123,7 +123,7 @@ export const projects = [
     {
         title: "Python",
         description:
-            "Python was my first programming language and i use it for a lot of things, automation, discord bots, cyber security and pretty much anything imaginable.",
+            "Python was my first programming language, and I use it for a lot of things: automation, Discord bots, cyber security, and pretty much anything imaginable.",
         link: "https://python.org",
     },
     {
@@ -135,25 +135,25 @@ export const projects = [
     {
         title: "React / Nextjs",
         description:
-            "React is the most popular choice as a beginner javascript framework, so i mostly just went with that to get the hang of it, if i decide to change my mind i can easily just framework-hop later. Also, fun-fact this page is built in Nextjs",
+        "React is the most popular choice as a beginner Javascript framework, so I mostly just went with that to get the hang of it. If I decide to change my mind, I can easily just framework-hop later. Also, fun fact: this page is built in Nextjs.",
         link: "https://nextjs.org/",
     },
     {
     title: "HTML & CSS [TAILWINDCSS]",
         description:
-            "Tailwind was generally the first web-framework i picked up and showed me how enjoyable css can actually be. I really cant go without it anymore at this point considering the speed and freedom it gives me.",
+            "Tailwind was generally the first web framework I picked up and showed me how enjoyable CSS can actually be. I really can't go without it anymore at this point, considering the speed and freedom it gives me.",
         link: "https://tailwindcss.com/",
     },
     {
         title: "GO",
         description:
-            "Go is the newest addition to my stack and i build TUI / CLI applications with the charmbracelet-bubbletea framework with it. I enjoy the speed and simplicity of go, although im just getting started with it.",
+            "Go is the newest addition to my stack, and I build TUI and CLI applications with the charmbracelet-bubbletea framework with it. I enjoy the speed and simplicity of go, although I'm just getting started with it.",
         link: "https://go.dev/",
     },
     {
         title: "GIT",
         description:
-            "Git might not be a programming language but i cant imagine my life as a programmer without it, its probably the thing i use the most in my stack and in my opinion every programmer should know how to use this work of art.",
+            "Git might not be a programming language, but I can't imagine my life as a programmer without it; it's probably the thing I use the most in my stack, and in my opinion, every programmer should know how to use this work of art.",
         link: "https://git-scm.com/",
     },
 ];
