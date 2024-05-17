@@ -104,7 +104,7 @@ export default function page() {
                             <div className="timeline-start lg:text-xl md:text-end mb-10">
                                 <time className="font-mono italic">June 2023</time>
                                 <div className="text-lg font-black justify-around">Swisshub-Community Developer Team</div>
-                                In June 2023, I started developing on the largest Swiss online Discord server. To this day, I program Discord bot solutions for the entire community and staff team. It's been truly an experience. After the former leading developer left and took over the codebase, I had to step in and take on that role. It definitely wasn&apos;t easy; however, I learned a lot, and now I manage the repositories and deployments.                            </div>
+                                In June 2023, I started developing on the largest Swiss online Discord server. To this day, I program Discord bot solutions for the entire community and staff team. It&apos;s been truly an experience. After the former leading developer left and took over the codebase, I had to step in and take on that role. It definitely wasn&apos;t easy; however, I learned a lot, and now I manage the repositories and deployments.                            </div>
                             <hr/>
                         </li>
                         <li>
@@ -115,7 +115,7 @@ export default function page() {
                             <div className="timeline-end lg:text-xl mb-10">
                                 <time className="font-mono italic">September 2023</time>
                                 <div className="text-lg font-black">Baselhack</div>
-                                BaselHack was one of the first events I attended in the tech field, and looking back, I showed up with barely any experience. I got accepted into a great team called ”H-A-Y” and got the chance to meet amazing developers with whom I'd spend the next two days building a full-stack application. Baselhack gave me a lot of memories, which I enjoy looking back on from time to time.                            </div>
+                                BaselHack was one of the first events I attended in the tech field, and looking back, I showed up with barely any experience. I got accepted into a great team called ”H-A-Y” and got the chance to meet amazing developers with whom I&apos;d spend the next two days building a full-stack application. Baselhack gave me a lot of memories, which I enjoy looking back on from time to time.                            </div>
                             <hr />
                         </li>
                         <li>
@@ -137,7 +137,7 @@ export default function page() {
                             <div className="timeline-end lg:text-xl mb-10">
                                 <time className="font-mono italic">April 2024</time>
                                 <div className="text-lg font-black">Accessibility Hack</div>
-                                The latest event I attended was the accessibility hack 2024 in Zurich. With fellow developers from my school, we went to find and develop new innovative solutions for visually impaired and blind people. It was a very interesting event, and I learned a lot about how people with disabilities use technology that we take for granted and what challenges they face. In the end, we developed a new concept that should assist such people with analyzing complex charts on webpages, be able to summarize, and make the charts interactive and accessible. Sadly, due to a lack of time, we weren't able to implement it.                            </div>
+                                The latest event I attended was the accessibility hack 2024 in Zurich. With fellow developers from my school, we went to find and develop new innovative solutions for visually impaired and blind people. It was a very interesting event, and I learned a lot about how people with disabilities use technology that we take for granted and what challenges they face. In the end, we developed a new concept that should assist such people with analyzing complex charts on webpages, be able to summarize, and make the charts interactive and accessible. Sadly, due to a lack of time, we weren&apos;t able to implement it.                            </div>
                             <hr />
                         </li>
                         
