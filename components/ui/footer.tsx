@@ -29,7 +29,7 @@ export default function Footer() {
             </aside>
             <nav>
                 <div className="grid grid-flow-col gap-4">
-                    <a href="mailto:lorenzo@bonomettil.ch"><MdMarkEmailRead color={"black"} size={28} /></a>
+                    <a href="mailto:lorenzo@bonomettil.dev"><MdMarkEmailRead color={"black"} size={28} /></a>
                     <a href={"https://github.com/poisonlocket"}><FaGithub color={"black"} size={28} /></a>
                     <a href="https://discordapp.com/users/683267055973433363"><FaDiscord color={"black"} size={28} /></a>
                 </div>
