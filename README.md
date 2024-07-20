@@ -52,5 +52,5 @@ next dev --turbo
 ## Demo
 <hr>
 
-Check out the Page : **[bonomettil.ch](https://bonomettil.ch)**
+Check out the Page : **[bonomettil.dev](https://bonomettil.dev)**
 
