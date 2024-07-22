@@ -53,7 +53,7 @@ const items = [
         description: "The Page you are checking out right now, a reworked portfolio",
         header: <div className={"w-full h-full min-h-[6rem] xs:text-5xl md:text-4xl lg:text-5xl rounded-xl bg-gradient-to-bl from-gray-600 via-slate-750  to-slate-950  text-gray-300 text-center justify-center content-center font-bold hover:text-white transition ease-in-out"}>Portfolio-V2</div>,
         icon: <PiChartLineUpBold className="h-4 w-4 text-neutral-500" />,
-        link: "https://bonomettil.ch"
+        link: "https://bonomettil.dev"
     },
     {
         title: "H-A-Y - Fullstack Webapp",
