@@ -85,7 +85,7 @@ export default function page() {
 
             </div>
                 <div id={"Techstack"} className={"text-left mx-[8%] mt-24 lg:text-[8em] md:text-[6em] sm:text-[4em] xs:text-[2em] font-semibold"}>
-                    &lt; My Stack / &gt;
+                    &lt; My Stack / &gt; Rea
                 </div>
                 <CardHoverEffectDemo>
 
@@ -152,7 +152,7 @@ export default function page() {
                 </div>
             <BentoGridDemo />
 
-            <div className="h-96 flex items-center justify-center content-center"><Code className={"bg-zinc-900 justify-center mx-[5%] flex items-center sm:text-2xl xs:text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl 3xl:text-7xl content-center h-48 text-wrap w-[96%] text-center"}>&ldquo;Take that Risk and go switch up the Game&rdquo;</Code></div>
+            <div className="h-96 flex items-center justify-center content-center"><Code className={"bg-zinc-900 justify-center mx-[5%] flex items-center sm:text-2xl xs:text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl 3xl:text-7xl content-center h-48 text-wrap w-[96%] text-center"}>&ldquo;Caffeine and Code&rdquo;</Code></div>
 
                 <Footer></Footer>
             </div>
